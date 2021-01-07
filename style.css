@@ -3161,13 +3161,13 @@ ul.dial li:first-child .dial-item-info {
     transition: all 200ms ease-in-out;
 }
 .accordion-wrapper .card-header button {
-    color: var(--color-default);
+    /* color: var(--color-default); */
 }
 .accordion-wrapper .card-header button.collapsed {
     color: #404040;
 }
 .accordion-wrapper .card-header button:hover {
-    color: var(--color-default);
+    /* color: var(--color-default); */
 }
 .accordion-wrapper .card-header>* {
     margin: 0;
@@ -3182,7 +3182,7 @@ ul.dial li:first-child .dial-item-info {
     width: 1.5rem;
     display: inline-block;
     vertical-align: -2px;
-    color: var(--color-default);
+    /* color: var(--color-default); */
 }
 .accordion-wrapper .card-header button.collapsed:before {
     content: "\e9bc";
