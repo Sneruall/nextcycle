@@ -1008,7 +1008,7 @@ $(document).ready(function() {
 				var url = "contact/contact.php";
 				console.log("Bij A gekomen")
 				thankYouMessage.classList.add('show');
-				// setTimeout(() => $('#contact-form')[0].reset(), 2000);
+				setTimeout(() => $('#contact-form')[0].reset(), 2000);
 
 				// POST values in the background the the script URL
 				$.ajax({
