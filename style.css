@@ -6783,3 +6783,13 @@ footer.inverse-text address {
         width: calc(100% - (0.5rem*2));
     }
 }
+
+/*added by me*/
+
+#thank-you-message {
+    display: none;
+  }
+  
+  #thank-you-message.show {
+    display: block;
+  }
