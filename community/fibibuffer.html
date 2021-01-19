@@ -133,7 +133,8 @@
                   <p>Almost break-even</p>
                 </li>
                 <li>
-                  <a href="mailto:info@nextcycle.nl" class="btn btn-s btn-blue">Contact</a>
+                  <a href="#" data-toggle="modal"
+                  data-target="#modal-03" class="btn btn-s btn-blue">Contact</a>
                 </li>
               </ul>
             </div>
@@ -294,7 +295,7 @@
           </button>
           <div class="image-block-wrapper">
             <div class="image-block col-lg-6">
-              <div class="image-block-bg bg-image" data-image-src="../style/images/art/bg23.jpg"></div>
+              <div class="image-block-bg bg-image" data-image-src="style/images/art/bg23.jpg"></div>
             </div>
             <!--/.image-block -->
             <div>
@@ -303,12 +304,12 @@
                   <div class="box p-50 d-flex">
                     <div class="align-self-center">
                       <h2 class="section-title mb-30">Get in Touch</h2>
-                      <form id="contact-form" method="post" action="contact/contact.php">
+                      <form id="contact-form" name="contact" method="post" data-netlify="true" action="/message-sent.html">
                         <div class="messages"></div>
                         <div class="controls">
                           <div class="form-row">
                             <div class="col-md-6">
-                              <div class="form-group">
+                              <div class="form-group" >
                                 <input id="form_name" type="text" name="name" class="form-control"
                                   placeholder="First Name *" required="required" data-error="First Name is required.">
                                 <div class="help-block with-errors"></div>
@@ -348,6 +349,9 @@
                             <div class="col-md-12">
                               <input type="submit" class="btn btn-send" value="Send message">
                             </div>
+                            <p class="alert alert-success" id="thank-you-message">
+                              Thank you for contacting us. We will be in touch with you very soon.
+                            </p>
                           </div>
                           <div class="form-row">
                             <div class="col-md-12">
